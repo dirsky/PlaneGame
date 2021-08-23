@@ -34,7 +34,7 @@ public class MyGameFrame extends Frame {
      */
     private Image bg = GameUtil.getImage("./images/bg.jpg");
     private Image planeImg = GameUtil.getImage("./images/plane.png");
-    private Plane plane = new Plane(planeImg,30,30,3);
+    private Plane plane = new Plane(planeImg,30,30,10);
 
     /**
      * 系统首次自动调用
